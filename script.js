@@ -1,11 +1,16 @@
-array = []
+let velocidades = []
 
 function calcular(){
+    if(localStorage.getItem('velocidades') != null){
+        velocidades = JSON.parse(localStorage.getItem('velocidades'))
+      }
     dist = document.getElementById("d").value
     tempo = document.getElementById("t").value
     vmedia = document.getElementById("v").value = dist / tempo
-    array.push(vmedia)
-    console.log(array)
+    velocidades.push(vmedia)
+
+    localStorage.setItem('velocidades', JSON.stringify(velocidades))
+    
 }
 
 function limpar(){
