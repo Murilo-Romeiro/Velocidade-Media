@@ -1,0 +1,124 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.título {
+    background-color: wheat;
+    color: orange;
+    margin: 0px;
+    text-align: left;
+    padding-left: 36px;
+    padding-bottom: 1px;
+    padding-top: 15px;
+    
+}
+
+.navegação {
+    background-color: gainsboro;
+    margin: 0px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.homeSobre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.calculo {
+    display: flex; flex-direction: column;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.CalculoTitulo {
+    background-color: wheat;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+#d {
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+#t {
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 80px;
+
+}
+
+#v {
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 80px;
+
+}
+
+#calcular {
+    height: 80px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+#limpar {
+    height: 80px;
+    background-color: wheat;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.ContainerTitulo {
+    background-color: wheat;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 20px;
+}    
+
+.container {
+    border: 3px solid orange;
+    margin: auto;
+    text-align: center;
+    height: 300px;
+    width: 630px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+#result {
+    width: 400px;
+    height: 200px;
+    border: solid;
+    border-color: orange;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: rgb(221, 183, 112);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.sobreTitulo {
+    background-color: wheat;
+}
