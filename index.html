@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header><h1>Velocidade Média</h1></header>
-    <nav>
-       <a href="./index.html">Home</a>
-       <a href="./sobre.html">Sobre</a>
+    <header class="título"><h1>Velocidade Média</h1></header>
+    <nav class='navegação'>
+       <ul class="homeSobre">
+        <a href="./index.html">Home</a>
+        <a href="./sobre.html">Sobre</a>
+       </ul>
     </nav>
     <div class="calculo">
-        <header>Cálculo</header>
+        <h3 class='CalculoTitulo'>Calcular</h3>
         <input id="d" type="number" placeholder="Distância">
         <input id="t" type="number" placeholder="Tempo">
         <input id="v" type="number" placeholder="Velocidade Média" readonly>
-        <button onclick="calcular()">Calcular</button>
-        <button onclick="limpar()">Limpar</button>
+        <button id='calcular'onclick="calcular()">Calcular</button>
+        <button id='limpar'onclick="limpar()">Limpar</button>
     </div>
     <div class="container">
-        <header>Resultados</header>
+        <h3 class="ContainerTitulo">Resultado</h3>
         <input id="result" type="number" readonly>
     </div>
     <footer>
         <p>Exemplo: Uma família viaja de São Paulo para o Rio de Janeiro, para passar as férias. A viagem
         tem duração de 6 horas em um percurso de 435 km. Qual a velocidade média do automóvel?</p>
-    </footer>
-    <footer>
         <ul>
             <li>Senai SC</li>
             <li>Curso de Desenvolvimento de Sistemas</li>
